@@ -1,0 +1,56 @@
+
+/* Estils generals */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfcf4;
+    color: rgb(56, 15, 238);
+}
+
+h1 {
+    color: #f02f0d;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #eb110a;
+    font-size: 1.8em;
+}
+
+.recipe-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+ul.categories {
+    list-style-type: square;
+    padding: 20px;
+}
+
+ul.categories li ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+ul.ingredients, ol.steps {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f8f0e3;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+p a {
+    color: #2cbe27;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
